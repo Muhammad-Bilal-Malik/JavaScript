@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table id="table-data">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="mybutton">Click Me</button>
+    <script>
+      const users = [
+        {
+          id: 1,
+          name: "Leanne Graham",
+          age: 18,
+        },
+        {
+          id: 2,
+          name: "Ervin Howell",
+          age: 25,
+        },
+        {
+          id: 3,
+          name: "Clementine Bauch",
+          age: 30,
+        },
+      ];
+      //   function displayTable() {}
+      document
+        .getElementById("mybutton")
+        .addEventListener("click", function () {
+          console.log("button pressed!");
+        });
+    </script>
+  </body>
+</html>
